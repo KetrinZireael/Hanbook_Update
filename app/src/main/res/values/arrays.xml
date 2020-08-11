@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="rpg_array">
+        <item>The Witcher</item>
+        <item>The Elder Scrolls V: Skyrim</item>
+        <item>Fallout: New Vegas</item>
+        <item>Monster Hunter: World</item>
+        <item>Divinity: Original Sin</item>
+        <item>Cyberpunk 2077</item>
+        <item>Gothic II: Night of the Raven</item>
+    </string-array>
+
+    <string-array name="shooter_array">
+        <item>Doom</item>
+        <item>Half-Life</item>
+        <item>Quake</item>
+        <item>BioShock</item>
+        <item>Battlefield</item>
+        <item>Dead Space</item>
+        <item>Wolfenstein</item>
+    </string-array>
+
+    <string-array name="strategy_array">
+        <item>Civilization</item>
+        <item>XCOM</item>
+        <item>StarCraft</item>
+        <item>Crusader Kings</item>
+        <item>Desperados</item>
+        <item>Total War</item>
+        <item>Anno 1800</item>
+    </string-array>
+
+</resources>

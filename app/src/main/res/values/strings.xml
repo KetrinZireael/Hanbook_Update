@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Gamer_Hanbook</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_rpg">RPG</string>
+    <string name="menu_shooter">SHOOTER</string>
+    <string name="menu_strategy">STRATEGY</string>
+
+    <string name="theWither">The Witcher is a 2007 action role-playing game developed by CD Projekt Red and published by Atari on Microsoft Windows and CD Projekt on OS X, based on the novel series of The Witcher by Polish author Andrzej Sapkowski, taking place after the events of the main saga.
+        The story takes place in a medieval fantasy world and follows Geralt of Rivia, one of a few traveling monster hunters who have supernatural powers, known as Witchers.
+        The games system of moral choices as part of the storyline was noted for its time-delayed consequences and lack of black-and-white morality.
+        The game utilizes BioWares proprietary Aurora Engine. In 2009, a console version, The Witcher: Rise of the White Wolf, was scheduled for release using an entirely new engine and combat system. However, it was suspended as a result of payment problems with console developers Widescreen Games.
+        Two sequels were released: The Witcher 2: Assassins of Kings in 2011 and The Witcher 3: Wild Hunt in 2015.
+        There are three camera styles available in The Witcher: two isometric perspectives, where the mouse is used to control most functions, and an over-the-shoulder view, which brings the player closer to the in-game combat while limiting vision. In all three views the controls can be changed to be primarily mouse focused or a combined keyboard and mouse approach.
+        Players can choose one of three fighting styles to use in different situations and against different foes.
+        The fast style allows for more rapid, less-damaging attacks with a higher chance of hitting faster enemies; the strong style deals more damage in exchange for a slow attack speed, and a lower chance to hit faster enemies; and the group style features sweeping attacks best used if Geralt is surrounded.
+        The player can switch between the styles at any point. Both of Geralts main swords also have distinctively different combat styles from other weaponry, and serve specific purposes.
+        The steel blade is used to fight humans and other flesh-and-blood beings, while the silver sword is more effective against supernatural monsters and beasts (against some of which steel may have no effect whatsoever). With precise timing, the player can link Geralts attacks into combos to damage enemies more effectively.</string>
+    <string name="theSkyrim">SKYRIM IS COOL GAME</string>
+    <string name="Fallout">Fallout IS COOL GAME</string>
+    <string name="MonsterHunter">MonsterHunter IS COOL GAME</string>
+    <string name="Divinity">Divinity IS COOL GAME</string>
+    <string name="Cyberpunk">Cyberpunk IS COOL GAME</string>
+    <string name="Gothic_II">Gothic II IS COOL GAME</string>
+
+    <string name="Doom">Doom IS COOL GAME</string>
+    <string name="HalfLife">Half-Life IS COOL GAME</string>
+    <string name="Quake">Quake IS COOL GAME</string>
+    <string name="BioShock">BioShock IS COOL GAME</string>
+    <string name="Battlefield">Battlefield IS COOL GAME</string>
+    <string name="DeadSpace">Dead Space IS COOL GAME</string>
+    <string name="Wolfestein">Wolfestein IS COOL GAME</string>
+
+    <string name="Civilization">Civilization IS COOL GAME</string>
+    <string name="XCOM">XCOM IS COOL GAME</string>
+    <string name="StarCraft">StarCraft IS COOL GAME</string>
+    <string name="CrusaderKing">Crusader King IS COOL GAME</string>
+    <string name="Desperados">Desperados IS COOL GAME</string>
+    <string name="TotalWar">TotalWar IS COOL GAME</string>
+    <string name="Anno1800">Anno1800 IS COOL GAME</string>
+
+    <string name="gamer_handbook">Gamer Handbook</string>
+
+</resources>
