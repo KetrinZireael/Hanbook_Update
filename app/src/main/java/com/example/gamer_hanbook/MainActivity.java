@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity implements  NavigationView.O
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.nav_rpg){
+            Toast.makeText(this, "Привет Владушка ❤️️", Toast.LENGTH_SHORT).show();
             fillArray(R.string.menu_rpg, R.array.rpg_array, 0);
         }
         else if (id == R.id.nav_shooter){
@@ -89,12 +90,10 @@ public class MainActivity extends AppCompatActivity implements  NavigationView.O
     }
     private void fillArray(int title, int arrayList, int index){
         toolbar.setTitle(title);
-        Toast.makeText(this, "Привет Владушка ❤️️", Toast.LENGTH_SHORT).show();
         array = getResources().getStringArray(arrayList);
         adapter.clear();
         adapter.addAll(array);
         adapter.notifyDataSetChanged();
         category_index = index;
     }
-
 }

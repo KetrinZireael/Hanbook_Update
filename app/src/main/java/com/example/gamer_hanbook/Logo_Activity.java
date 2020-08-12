@@ -20,6 +20,7 @@ import androidx.annotation.Nullable;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.logo_activity);
         init();
+        //startMainActivity();
     }
     private void init()
     {
@@ -39,4 +40,19 @@ import androidx.annotation.Nullable;
         super.onDestroy();
         finish();
     }
+/*    private  void startMainActivity()
+    {
+new Thread(new Runnable() {
+    @Override
+    public void run() {
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        Intent i = new Intent(Logo_Activity.this, MainActivity.class);
+        startActivity(i);
+    }
+}).start();
+    }*/
 }
