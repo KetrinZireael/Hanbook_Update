@@ -11,7 +11,7 @@ import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 
-public class Logo_Activity  extends  Activity{
+    public class Logo_Activity  extends  Activity{
     private Animation logoAnim, buttonLogoAnim;
     private Button bAnim;
     private ImageView logoImage;
@@ -19,8 +19,10 @@ public class Logo_Activity  extends  Activity{
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.logo_activity);
+        init();
     }
-private void init(){
+    private void init()
+    {
         logoAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.logo_anim);
         buttonLogoAnim = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.button_anim);
 

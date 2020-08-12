@@ -29,10 +29,9 @@
                 <ImageView
                     android:id="@+id/image_content"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:background="@drawable/thewither_background" />
-
+                    android:background="@color/colorPrimary" />
             </LinearLayout>
 
             <TextView
@@ -42,6 +41,7 @@
                 android:layout_margin="10dp"
                 android:text="@string/theWither"
                 android:textSize="18sp" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
