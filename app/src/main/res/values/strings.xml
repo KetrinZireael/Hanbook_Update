@@ -11,6 +11,7 @@
     <string name="menu_shooter">SHOOTER</string>
     <string name="menu_strategy">STRATEGY</string>
 
+
     <string name="theWither">The Witcher is a 2007 action role-playing game developed by CD Projekt Red and published by Atari on Microsoft Windows and CD Projekt on OS X, based on the novel series of The Witcher by Polish author Andrzej Sapkowski, taking place after the events of the main saga.
         The story takes place in a medieval fantasy world and follows Geralt of Rivia, one of a few traveling monster hunters who have supernatural powers, known as Witchers.
         The games system of moral choices as part of the storyline was noted for its time-delayed consequences and lack of black-and-white morality.
@@ -44,6 +45,7 @@
     <string name="TotalWar">TotalWar IS COOL GAME</string>
     <string name="Anno1800">Anno1800 IS COOL GAME</string>
 
+    <string name="button_start">Welcome to Gamer Handbook </string>
     <string name="gamer_handbook">Gamer Handbook</string>
 
 </resources>

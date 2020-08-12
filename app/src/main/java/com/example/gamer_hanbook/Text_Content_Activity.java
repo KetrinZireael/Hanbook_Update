@@ -1,6 +1,7 @@
 package com.example.gamer_hanbook;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -10,6 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Text_Content_Activity extends AppCompatActivity{
         private TextView text_content;
+        private Typeface face1;
         private ImageView image_content;
         private int category = 0;
         private int position = 0;
@@ -23,8 +25,7 @@ public class Text_Content_Activity extends AppCompatActivity{
         protected void onCreate(@Nullable Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.text_content);
-            text_content = findViewById(R.id.text_main_content);
-            image_content = findViewById(R.id.image_content);
+            init();
             reciveIntent();
         }
         private void reciveIntent()
@@ -49,5 +50,12 @@ public class Text_Content_Activity extends AppCompatActivity{
                     text_content.setText(array_strategy[position]);
                     break;
             }
+        }
+
+        private  void init(){
+            text_content = findViewById(R.id.text_main_content);
+            image_content = findViewById(R.id.image_content);
+            face1 = Typeface.createFromAsset(this.getAssets(), "fonts/RobotoSlab-VariableFont_wght.ttf");
+            text_content.setTypeface(face1);
         }
 }
