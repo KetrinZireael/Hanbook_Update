@@ -76,29 +76,25 @@ public class MainActivity extends AppCompatActivity implements  NavigationView.O
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if(id == R.id.nav_rpg){
-            toolbar.setTitle(R.string.menu_rpg);
-            Toast.makeText(this, "Привет Владушка ❤️️", Toast.LENGTH_SHORT).show();
-            array = getResources().getStringArray(R.array.rpg_array);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
+            fillArray(R.string.menu_rpg, R.array.rpg_array, 0);
         }
         else if (id == R.id.nav_shooter){
-            toolbar.setTitle(R.string.menu_shooter);
-            array = getResources().getStringArray(R.array.shooter_array);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
+            fillArray(R.string.menu_shooter, R.array.shooter_array, 1);
         }
         else if (id == R.id.nav_strategy){
-            toolbar.setTitle(R.string.menu_strategy);
-            array = getResources().getStringArray(R.array.strategy_array);
-            adapter.clear();
-            adapter.addAll(array);
-            adapter.notifyDataSetChanged();
+            fillArray(R.string.menu_strategy, R.array.strategy_array, 2);
         }
-
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    private void fillArray(int title, int arrayList, int index){
+        toolbar.setTitle(title);
+        Toast.makeText(this, "Привет Владушка ❤️️", Toast.LENGTH_SHORT).show();
+        array = getResources().getStringArray(arrayList);
+        adapter.clear();
+        adapter.addAll(array);
+        adapter.notifyDataSetChanged();
+        category_index = index;
+    }
+
 }
